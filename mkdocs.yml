@@ -1,0 +1,149 @@
+site_url: https://opencshonor.github.io
+site_name: OpenCSHonor
+nav:
+  - 主页: index.md
+  - 课内资料: 
+    - 概述: 课内资料/overview.md
+    - 大一: 
+      - 概述: 课内资料/大一/overview.md
+      - 工数上: 课内资料/大一/工数上.md
+      - 工数下: 课内资料/大一/工数下.md
+      - 线性代数与解析几何: 课内资料/大一/线性代数与解析几何.md
+      - 计算机程序设计: 课内资料/大一/计算机程序设计程设.md
+      - 中国近代史纲要: 课内资料/大一/中国近代史纲要.md
+      - 思想道德与法治: 课内资料/大一/思想道德与法治.md
+      - 数据结构与算法A(拔尖班): 课内资料/大一/数据结构与算法.md
+      - 离散数学A: 课内资料/大一/离散数学A.md
+      - 计算概论: 课内资料/大一/计算概论.md
+      - 国防教育: 课内资料/大一/国防教育.md
+      - 大学物理1: 课内资料/大一/大学物理1.md
+      - 大学物理实验1: 课内资料/大一/大学物理实验1.md
+      - 英语:
+        - 学术英语素养: 课内资料/大一/英语/学术英语素养.md
+        - 国际交流演讲与辩论: 课内资料/大一/英语/国际交流演讲与辩论.md
+        - 托福强化: 课内资料/大一/英语/托福强化.md
+        - 英语学术写作与展示: 课内资料/大一/英语/英语学术写作与展示.md
+        - 日语基础: 课内资料/大一/英语/日语基础.md
+      - 军训: 课内资料/大一/军训.md
+    - 大二: 
+      - 概述: 课内资料/大二/overview.md
+      - 大学物理(下): 课内资料/大二/大学物理(下).md
+      - 电路: 课内资料/大二/电路.md
+      - 概率论与随机过程: 课内资料/大二/概率论与随机过程.md
+      - 管理学基础(弃用): 课内资料/大二/管理学基础(弃用).md
+      - 汇编语言: 课内资料/大二/汇编语言.md
+      - 计算机系统导论: 课内资料/大二/计算机系统导论.md
+      - 神经生物学与脑科学: 课内资料/大二/神经生物学与脑科学.md
+      - 数据结构: 课内资料/大二/数据结构.md
+      - 数理方程: 课内资料/大二/数理方程.md
+      - 算法设计与分析: 课内资料/大二/算法设计与分析.md
+      - 形式语言与编译: 课内资料/大二/形式语言与编译.md
+    - 大三: 
+      - 概述: 课内资料/大三/overview.md
+      - 计算机组成原理: 课内资料/大三/计算机组成原理.md
+      - 操作系统: 课内资料/大三/操作系统.md
+      - 计算机网络: 课内资料/大三/计算机网络.md
+      - 优化方法基础: 课内资料/大三/优化方法基础.md
+      - 表达与交流: 课内资料/大三/表达与交流.md
+      - 数据库系统: 课内资料/大三/数据库系统.md
+      - 人工智能导论: 课内资料/大三/人工智能导论.md
+      - 认知计算与机器学习: 课内资料/大三/认知计算与机器学习.md
+      - 计算机体系结构: 课内资料/大三/计算机体系结构.md
+      - 数值分析: 课内资料/大三/数值分析.md
+    - 大四: 
+      - 概述: 课内资料/大四/overview.md
+      - 网络与信息安全: 课内资料/大四/网络与信息安全.md
+      - 数据仓库与数据挖掘: 课内资料/大四/数据仓库与数据挖掘.md
+      - 物联网应用概论: 课内资料/大四/物联网应用概论.md
+    - 选修: 课内资料/选修.md
+    - 体育: 课内资料/体育.md
+  - 科研: 
+    - 概述: 科研/content.md
+    - 导师: 科研/mentors.md
+  - 研讨班课件: 
+    - 概述: 研讨班/overview.md
+    - 后续内容: 研讨班/后续内容/后续内容.md
+    - 基础概念: 研讨班/基础概念/基础概念.md
+    - 决策树: 研讨班/决策树/决策树.md
+    - SVM支持向量机: 研讨班/SVM支持向量机/SVM支持向量机.md
+    - 深度神经网络: 研讨班/深度神经网络/深度神经网络.md
+  - 出国交流: 
+    - 伯克利访问项目: 出国交流/伯克利访问项目/overview.md
+    - 新国立暑期项目: 出国交流/新国立暑期项目/overview.md
+  - 升学: 升学/overview.md
+  - 竞赛:
+      - 概述: 竞赛/index.md
+      - 数学建模: 竞赛/math-modeling.md
+      - 算法竞赛: 竞赛/suanfa.md
+      - 大学生数学竞赛: 竞赛/CMC.md
+      - 物理竞赛: 竞赛/CUPT.md
+      - 机器人竞赛: 竞赛/robot.md
+      - 创新创业类竞赛: 竞赛/innovation.md
+      - 节能减排竞赛: 竞赛/energy.md
+  - 杂项: 杂项/content.md
+  - 关于我们: about.md
+theme:
+  name: material
+  language: zh                 # 保持中文语言设置
+  
+  # 字体优化：使用 Noto Sans SC 提升中文显示效果
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+
+  palette:
+    # 亮色模式 (Light Mode) - 推荐作为默认模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey       # 主色改为 Blue Grey (蓝灰) - 模拟纸张和官方文档的颜色
+      accent: indigo           # 强调色改为 Indigo (靛蓝) - 沉稳、专业
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至深色模式
+
+    # 深色模式 (Dark Mode) - 适合夜间阅读
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black           # 主色保持 Black (黑色) 或 Slate (板岩灰)
+      accent: teal             # 强调色改为 Teal (青色) - 在深色背景下有科技感
+      toggle:
+        icon: material/weather-night
+        name: 切换至浅色模式
+
+  # 建议开启：显示代码行号
+  features:
+    - content.code.annotate
+    - content.code.copy
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - tables
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.keys
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+plugins:
+  - social:
+      enabled: !ENV [CI, false]
