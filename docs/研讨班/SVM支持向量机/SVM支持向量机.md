@@ -1,4 +1,3 @@
-- [支持向量机课件]
 ??? note "支持向量机课件"
     <iframe 
         loading="lazy" 
@@ -7,7 +6,7 @@
         height="600px"
         style="border:none">
     </iframe> 
-- [支持向量机python代码]
+
 ??? note "支持向量机python代码"
     <iframe 
         loading="lazy" 
