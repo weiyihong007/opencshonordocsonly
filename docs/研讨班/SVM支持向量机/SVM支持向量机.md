@@ -1,5 +1,5 @@
 - [支持向量机课件]
-- ??? note "支持向量机课件"
+??? note "支持向量机课件"
     <iframe 
         loading="lazy" 
         src="../../../../utils/xjtu-cshonor-utils/机器学习讨论班/SVM支持向量机/ch4.ipynb"
@@ -8,7 +8,7 @@
         style="border:none">
     </iframe> 
 - [支持向量机python代码]
-- ??? note "支持向量机python代码"
+??? note "支持向量机python代码"
     <iframe 
         loading="lazy" 
         src="../../../../utils/xjtu-cshonor-utils/机器学习讨论班/SVM支持向量机/Support Vector Machine.py"
