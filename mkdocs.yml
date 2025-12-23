@@ -91,6 +91,17 @@ theme:
     text: Noto Sans SC
     code: JetBrains Mono
 
+  # 添加 Material Design 字体优化配置
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+  
+  # 通过主题配置优化字体渲染
+  custom_dir: "theme_overrides"
+  
   palette:
     # 亮色模式 (Light Mode) - 推荐作为默认模式
     - media: "(prefers-color-scheme: light)"
@@ -110,10 +121,64 @@ theme:
         icon: material/weather-night
         name: 切换至浅色模式
 
-  # 建议开启：显示代码行号
+  # 字体优化扩展功能
   features:
     - content.code.annotate
     - content.code.copy
+
+# 添加字体优化相关的扩展配置
+extra:
+  font:
+    # 为中文优化添加更多字体回退
+    text_fallback: "Source Han Sans SC, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+    code_fallback: "Cascadia Code, Fira Code, Consolas, Monaco, monospace"
+    
+  # 通过meta标签优化字体渲染
+  analytics:
+    provider: google
+    property: !ENV [GOOGLE_ANALYTICS_KEY, null]
+
+# 直接在mkdocs.yml中添加内联CSS样式来优化字体
+extra_css:
+  - |
+    /* 内联字体优化CSS - 直接嵌入在mkdocs.yml中 */
+    :root {
+      --md-text-font: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      --md-code-font: "JetBrains Mono", "Cascadia Code", "Fira Code", "Consolas", "Monaco", monospace;
+    }
+    
+    /* 优化正文字体 */
+    body {
+      font-family: var(--md-text-font) !important;
+      font-weight: 400;
+      line-height: 1.75;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    /* 优化标题字体 */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--md-text-font) !important;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+    
+    /* 优化代码字体 */
+    code, pre {
+      font-family: var(--md-code-font) !important;
+      font-size: 0.9em;
+    }
+    
+    /* 优化导航菜单字体 */
+    .md-nav {
+      font-family: var(--md-text-font) !important;
+    }
+    
+    /* 优化表格字体 */
+    table {
+      font-family: var(--md-text-font) !important;
+    }
 
 markdown_extensions:
   - toc:
