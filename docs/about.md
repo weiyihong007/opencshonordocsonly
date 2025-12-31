@@ -5,4 +5,5 @@
 这个网站基于[这里](https://github.com/script-Yang/XJTU-CSTE-Mentor-Group)构建。
 
 Founder: [杨思成](https://github.com/script-Yang)
-Core Contributor: [洪玮屹](https://github.com/weiyihong007), [薛岚轩](https://github.com/Asakisa),  [李宛辰](https://github.com/eras-cyber), [邓健豪](https://github.com/Traveller-deng), [匡巍嵩](https://github.com/reinrein111), [刘远浩](https://github.com/Huxiao-1), [肖宇晨](https://github.com/wuyehs)
+
+Core Contributor: [洪玮屹](https://github.com/weiyihong007), [薛岚轩](https://github.com/Asakisa),  [李宛辰](https://github.com/eras-cyber), [邓健豪](https://github.com/Traveller-deng), [匡巍嵩](https://github.com/reinrein111), [刘远浩](https://github.com/Huxiao-1), [肖宇晨](https://github.com/wuyehs),[李欣泽](https://github.com/Raymond-223)
